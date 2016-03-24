@@ -7,9 +7,9 @@ body{
 }
 .fa-diamond{
 	color: #fd355d;
-	margin-top:60px;
+	margin-top:45px;
 	margin-left: 10px;
-	margin-right:10px;
+	margin-right:5px;
 	float:left;
 }
 
@@ -19,12 +19,13 @@ nav{
 }
 nav .logo{
 	font-family: 'Pacifico', cursive;
-	font-size:30px;
+	font-size:32px;
 	font-weight: bold;
 	line-height: 18px;
 	float:left;
-	padding-left: 10px;
+	padding-left: 5px;
 	margin-top: 55px;
+	letter-spacing: 1px;
 }
 nav ul{
 	float: right;
@@ -63,6 +64,8 @@ header > h1{
 }
  header span{
 	color:#fd355d;
+	font-family: 'Pacifico', cursive;
+	letter-spacing: 2px;
 }
 header > h3{
 	font-size:17px;
@@ -85,20 +88,67 @@ header>img{
 	width:45%;
 	font-size:17px;
 	line-height: 23px;
+	margin-top:40px;
+	margin-bottom:45px;
 }
-.descriptions h2{
+.work h2{
 	text-align:center;
 	color:#fd355d;
 	font-family: 'Pacifico', cursive;
+	word-spacing: 3px;
+	letter-spacing:2px;
 }
 #work {
 	margin-left: 75px;
 }
+
+/*PICTURES*/
+
 .box{
 	display:inline-block;
 	width:18%;
 	margin-left:15px;
 	margin-right:5px;
+}
+
+.contact{
+	background-color: #2d2d2d;
+	height:400px;
+}
+
+.contact h2{
+	color: #fd355d;
+	font-family: 'Pacifico', cursive;
+	letter-spacing:2px;
+	margin-left:27px;
+	margin-bottom:8px;
+}
+
+input{
+	width:50%;
+	height:30px;
+	margin-top:15px;
+	margin-bottom:15px;
+	margin-left:27px;
+	border-radius:3px;
+	background-color: #ececec;
+	font-size:18px;
+}
+textarea{
+	width:50%;
+	height:100px;
+	margin-left:27px;
+	border-radius:3px;
+	background-color: #ececec;
+	font-size:18px;
+}
+button{
+	background-color: transparent;
+	color:#ececec;
+	margin-top: 20px;
+	margin-left:27px;
+	border:none;
+	font-size: 18px;
 }
 
 
