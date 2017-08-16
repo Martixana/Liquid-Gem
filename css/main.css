@@ -110,20 +110,15 @@ header>img{
 	display:inline-block;
 	text-align:center;
 	padding-bottom: 30px;
+	width:30%;
 }
 
 .box img{
-	position: relative;
 	top:40px;
 	left:75px;
-	width: 18%;
+	width: 40%;
 	margin: 15px 20px 5px;
-	float:left;
-	border:1px solid #E8E8E8;
-	border-radius: 5px;
-	box-shadow:0 0 5px #EFEFEF;
 	padding: 20px 10px;	
-	text-decoration: none;
 }
 
 .descriptions:last child{
