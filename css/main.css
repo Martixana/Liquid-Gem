@@ -6,13 +6,13 @@ body{
 	margin-left: 20px;
 	margin-right: 20px;
 	background: #fcfaf2;
-	background: -webkit-linear-gradient(left ,#fcfaf2,#d3934a); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(right, #fcfaf2,#d3934a); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(right, #fcfaf2,#d3934a); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to right, #fcfaf2,#d3934a); /* Standard syntax */
+	background: -webkit-linear-gradient(left ,#fcfaf2,#	#d77a5b); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #fcfaf2,#	#d77a5b); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #fcfaf2,#d77a5b); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #fcfaf2,#d77a5b); /* Standard syntax */
 }
 .fa-diamond{
-	color:black;
+	color:#6699cc;
 	margin-top:45px;
 	margin-left: 10px;
 	margin-right:5px;
@@ -32,6 +32,7 @@ nav .logo{
 	padding-left: 5px;
 	margin-top: 55px;
 	letter-spacing: 5px;
+	color: #6699cc;
 }
 nav ul{
 	float: right;
@@ -59,17 +60,17 @@ nav ul li a{
 	max-width: 6px;
 }
 nav ul li a:hover{
-	border:1px solid #00b38f;
 	border-radius: 20px;
+	background-color:#8cb3d9;
 }
 
 
 /*HR*/
 
-hr{
+/*hr{
 	border-style: solid;
 	border-width: 1px;
-}
+}*/
 
 /*HEADER*/
 
@@ -78,18 +79,21 @@ header > h1{
 	letter-spacing: 2px;
 	text-align:center;
 	margin-top: 70px;
+	color:#eff6f4;
+
 }
  header span{
-	color:#99bfb5;
 	font-family: 'Pacifico', cursive;
 	letter-spacing: 8px;
 	font-size: 32px;
+	color:#6699cc;
 }
 header > h3{
 	font-size:17px;
 	font-weight: light;
 	text-align:center;
 	margin-bottom: 70px;
+	color: 	#538cc6;
 }
 
 header>img{
