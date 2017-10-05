@@ -1,18 +1,28 @@
 *{
 	font-family: 'Source Sans Pro', sans-serif;
+	color:  #336699;
+	text-decoration: none;
 }
+h3{
+	margin-bottom:0px;
+}
+h4{
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+
 body{
 	margin-top: 20px;
 	margin-left: 20px;
 	margin-right: 20px;
 	background: #fcfaf2;
-	background: -webkit-linear-gradient(left ,#fcfaf2,#	#d77a5b); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(right, #fcfaf2,#	#d77a5b); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(right, #fcfaf2,#d77a5b); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to right, #fcfaf2,#d77a5b); /* Standard syntax */
+	background: -webkit-linear-gradient(left ,#ecf2f9,#d77a5b); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ecf2f9,#d77a5b); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ecf2f9,#d77a5b); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ecf2f9,#d77a5b); /* Standard syntax */
 }
 .fa-diamond{
-	color:#6699cc;
+	color: #336699;
 	margin-top:45px;
 	margin-left: 10px;
 	margin-right:5px;
@@ -32,7 +42,7 @@ nav .logo{
 	padding-left: 5px;
 	margin-top: 55px;
 	letter-spacing: 5px;
-	color: #6699cc;
+	color:  #336699;
 }
 nav ul{
 	float: right;
@@ -61,7 +71,7 @@ nav ul li a{
 }
 nav ul li a:hover{
 	border-radius: 20px;
-	background-color:#8cb3d9;
+	background-color: #336699;
 }
 
 
@@ -86,7 +96,7 @@ header > h1{
 	font-family: 'Pacifico', cursive;
 	letter-spacing: 8px;
 	font-size: 32px;
-	color:#6699cc;
+	color: #336699;
 }
 header > h3{
 	font-size:17px;
@@ -115,15 +125,18 @@ header>img{
 	margin-bottom:20px;
 
 }
+.aboutMe{
+    	margin-left: 5%;
+    }
 .work h2{
 	text-align:center;
-	color:#fd355d;
+	color: #336699;
 	font-family: 'Pacifico', cursive;
 	word-spacing: 3px;
 	letter-spacing:2px;
 }
 #work {
-	margin-left: 75px;
+	margin-left: 55px;
 }
 
 /*PICTURES*/
@@ -172,7 +185,7 @@ header>img{
 }
 
 .contact h2{
-	color: #fd355d;
+	color: #336699;
 	font-family: 'Pacifico', cursive;
 	font-size: 20px;
 	letter-spacing:2px;
@@ -229,7 +242,7 @@ button{
  .socialMedia .fa{
 	margin-right:15px;
 	margin-left:15px;
-	background-color:#fd355d;
+	background-color:#336699;
 	color: #2d2d2d;
 	height:12px;
 	width: 12px;
@@ -237,5 +250,56 @@ button{
 	border-radius:50% 50%;
 	display:inline-block;
 }
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 900px) {
+    hr {
+        display: none;
+    }
+    header > h1{
+    	color:#79a6d2;
+    }
+    nav ul li a{
+    	font-size: medium;
+    	color: #79a6d2;
+    	margin-right: 0px;
+    }
+}
+
+
+@media screen and (max-width: 770px){
+	 nav ul{
+    	float: left;
+    	padding: 4px 4px;
+    	font-size: 8px;
+    	margin-top: 45px;
+    	margin-bottom: 10px;
+    	margin-left: 0px;
+    	margin-right: 0px;
+    	font-weight: normal;
+    	text-align: center;
+}
+	header > h1{
+		font-size: 20px;
+		text-align: center;
+	}
+	header span {
+    	letter-spacing: 4px;
+    	font-size: 22px;
+    }
+    .descriptions{
+    	text-align: justify;
+    	line-height: none;
+    	letter-spacing: none;
+    }
+    #work {
+	margin-left: 5pxs;
+	}
+}
+
+
+
 
 
